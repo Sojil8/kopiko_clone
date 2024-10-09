@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.nav {
+    
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.nav-headline {
+    color:  rgb(183, 183, 183);
+    font-size: 44px;
+    letter-spacing: 6.5px;
+    line-height: 55.6px;
+    font-weight: 400;
+    transition: .8s ease-in-out;
+    font-family: "Playfair Display" serif;
+
+}
+
+.nav-headline:hover {
+    cursor: pointer;
+    color: rgb(219, 79, 61);
+}
+
+.nav-subhead {
+    font-family: "Open Sans", sans-serif;
+    line-height: 21px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size:  14px;
+    color:  rgb(183, 183, 183);
+
+}
+.hro{
+    width: 1250px;
+    color: rgb(56, 54, 54);  
+}
+.home{
+     color: rgb(219, 79, 61); ;
+}
+.nav-bar{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 15px;
+}
+.nav-bar p{
+    transition: .8s ease-in-out;
+}
+.nav-bar p:hover{
+    cursor: pointer;
+    color: rgb(219, 79, 61);
+}
+.img-copped{
+    width: 100%;
+    margin-top: 20px
+}
+.first-text1{
+    color: rgb(122, 122, 122);
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    line-height:  35.2px;
+    margin-top: 145px;
+    letter-spacing:  -0.6px;
+    
+}
+.first-text2{
+    color: rgb(122, 122, 122);
+    font-family: "Open Sans", sans-serif;
+    line-height:  35.2px;
+    font-weight: 700;
+    font-size:  21px;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing:  -0.6px;
+
+}
+.second-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-coffee{
+    margin-top: 50px;
+    width: 880px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 240px;
+}
+.cpyright-1{
+    color: gray;
+}
+.cpyright-2{
+    color: white;
+    transition: .8s ease-in-out;
+}
+.cpyright-2:hover{
+    cursor: pointer;
+    color: rgb(219, 79, 61);    
+
+}
+.cpyright-3{
+    color: gray;
+   
+}
+.cpyright-4{
+    color: white;
+    transition: .8s ease-in-out;
+}
+.cpyright-4:hover{
+    cursor: pointer;
+    color: rgb(219, 79, 61);
+}
+.ad{
+    padding-top: 200px ;
+    display: flex;
+    justify-content: center ;
+    font-size:  13px;
+    gap: 1px;
+    padding-bottom:50px ;
+}
+
+.arrowbtn{  
+    padding: 12px;
+    border-radius: 100px;
+    background-color: rgb(221, 52, 52);
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.arrowbtn i{
+    color: white;
+    background-color: transparent;
+    transition: .8s ease-in-out;
+}
+.arrowbtn i:hover{
+    cursor: pointer;
+    color: white;
+}
